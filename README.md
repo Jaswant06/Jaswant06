@@ -1,14 +1,21 @@
-### Hi, I'm Jaswant 👋
+### Hi, I'm Jaswant
 
-**AI/ML Engineer focused on NLP & Deep Learning.** I build models end-to-end —
-from baseline to transformer — and I deploy them so people can actually use them.
+I'm an AI/ML engineer working in NLP and deep learning. I like building models,
+getting them to actually work, and putting them online so people can use them.
 
-🔭 **Featured project — [Multi-Label Emotion Classifier](https://github.com/Jaswant06/semeval-emotion-classification-pytorch)**
-Compared TF-IDF → BiLSTM → DistilBERT → BERTweet on the SemEval-2018 dataset
-(best: 0.73 micro-F1), deployed it as a live demo, then stress-tested it and
-documented exactly where it breaks.
-▶️ **[Try the live demo](https://huggingface.co/spaces/JaswantDev/tweet-emotion-classifier)**
+**Projects**
 
-🛠️ **Tools:** PyTorch · Hugging Face Transformers · scikit-learn · pandas · Gradio
-🌱 **Currently building:** a resume–job matcher with embeddings, then a RAG assistant
-🤗 **Hugging Face:** [JaswantDev](https://huggingface.co/JaswantDev)
+**AI Resume Matcher** ([code](https://github.com/Jaswant06/ai-resume-matcher), [demo](https://huggingface.co/spaces/JaswantDev/ai-resume-matcher))
+Paste a resume and a job description; it scores the match and points out missing
+skills using sentence embeddings.
+
+**Emotion Classifier** ([code](https://github.com/Jaswant06/semeval-emotion-classification-pytorch), [demo](https://huggingface.co/spaces/JaswantDev/tweet-emotion-classifier))
+Multi-label tweet emotion model. I compared a TF-IDF baseline, a BiLSTM, and two
+transformers (DistilBERT and BERTweet), then tested where the best one fails and
+wrote it up.
+
+**Tools:** Python, PyTorch, Hugging Face Transformers, sentence-transformers, scikit-learn, Gradio
+
+**Currently:** learning to build LLM and RAG apps.
+
+Hugging Face: [JaswantDev](https://huggingface.co/JaswantDev)
