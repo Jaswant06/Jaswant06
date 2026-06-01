@@ -1,16 +1,14 @@
-## Hi there 👋
+### Hi, I'm Jaswant 👋
 
-<!--
-**Jaswant06/Jaswant06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI/ML Engineer focused on NLP & Deep Learning.** I build models end-to-end —
+from baseline to transformer — and I deploy them so people can actually use them.
 
-Here are some ideas to get you started:
+🔭 **Featured project — [Multi-Label Emotion Classifier](https://github.com/Jaswant06/semeval-emotion-classification-pytorch)**
+Compared TF-IDF → BiLSTM → DistilBERT → BERTweet on the SemEval-2018 dataset
+(best: 0.73 micro-F1), deployed it as a live demo, then stress-tested it and
+documented exactly where it breaks.
+▶️ **[Try the live demo](https://huggingface.co/spaces/JaswantDev/tweet-emotion-classifier)**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠️ **Tools:** PyTorch · Hugging Face Transformers · scikit-learn · pandas · Gradio
+🌱 **Currently building:** a resume–job matcher with embeddings, then a RAG assistant
+🤗 **Hugging Face:** [JaswantDev](https://huggingface.co/JaswantDev)
