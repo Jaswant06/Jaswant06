@@ -1,21 +1,23 @@
 ### Hi, I'm Jaswant
 
-I'm an AI/ML engineer working in NLP and deep learning. I like building models,
-getting them to actually work, and putting them online so people can use them.
+I work on machine learning and NLP. I like building models, testing where
+they break, and deploying them so people can actually use them.
 
 **Projects**
 
-**AI Resume Matcher** ([code](https://github.com/Jaswant06/ai-resume-matcher), [demo](https://huggingface.co/spaces/JaswantDev/ai-resume-matcher))
-Paste a resume and a job description; it scores the match and points out missing
-skills using sentence embeddings.
+**DocuMind** ([code](https://github.com/Jaswant06/rag-pdf-assistant) | [live demo](https://huggingface.co/spaces/JaswantDev/rag-pdf-assistant))
+Chat with a PDF. Retrieval augmented generation: embeddings find the relevant
+passages and a 70B model answers from them with page citations. If the answer
+is not in the document, it says so instead of making one up.
 
-**Emotion Classifier** ([code](https://github.com/Jaswant06/semeval-emotion-classification-pytorch), [demo](https://huggingface.co/spaces/JaswantDev/tweet-emotion-classifier))
-Multi-label tweet emotion model. I compared a TF-IDF baseline, a BiLSTM, and two
-transformers (DistilBERT and BERTweet), then tested where the best one fails and
-wrote it up.
+**AI Resume Matcher** ([code](https://github.com/Jaswant06/ai-resume-matcher) | [live demo](https://huggingface.co/spaces/JaswantDev/ai-resume-matcher))
+Scores a resume against a job description with sentence embeddings and lists
+the missing skills. Matches meaning, not keywords.
 
-**Tools:** Python, PyTorch, Hugging Face Transformers, sentence-transformers, scikit-learn, Gradio
+**Emotion Classifier** ([code](https://github.com/Jaswant06/semeval-emotion-classification-pytorch) | [live demo](https://huggingface.co/spaces/JaswantDev/tweet-emotion-classifier))
+Multi-label tweet emotion model. Compared TF-IDF, a BiLSTM, DistilBERT, and
+BERTweet, then tested where the best one fails and wrote it up.
 
-**Currently:** learning to build LLM and RAG apps.
+**Tools:** Python, PyTorch, Hugging Face Transformers, Sentence-Transformers, scikit-learn, FastAPI, Docker, Gradio
 
-Hugging Face: [JaswantDev](https://huggingface.co/JaswantDev)
+Open to AI/ML engineering roles. Hugging Face: [JaswantDev](https://huggingface.co/JaswantDev)
