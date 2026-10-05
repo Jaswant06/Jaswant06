@@ -2,7 +2,7 @@
 
 I work on machine learning and NLP. I like building models, testing where
 they break, and deploying them so people can actually use them. Every project
-below has a live demo, code and tests.
+below has a live demo and the code behind it.
 
 **Projects**
 
