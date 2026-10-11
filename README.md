@@ -2,9 +2,20 @@
 
 I work on machine learning and NLP. I like building models, testing where
 they break, and deploying them so people can actually use them. Every project
-below has a live demo and the code behind it.
+below comes with the code behind it, and most with a live demo.
 
 **Projects**
+
+**EvalOps** ([code](https://github.com/Jaswant06/evalops) | [try it in five minutes](https://github.com/Jaswant06/evalops#try-it-in-five-minutes))
+EvalOps checks whether a new version of an LLM application is ready to ship.
+It tests the new version against the same 250 questions used to evaluate the
+current production version. Automated checks verify citations and refusals,
+while an LLM judge evaluates answer correctness and grounding. Fourteen
+predefined rules help catch regressions, with bootstrap confidence intervals
+providing additional context. If a candidate fails the release criteria, it
+gets blocked. Promotion is handled separately and requires a passing
+evaluation, with every decision recorded for auditing. The entire process runs
+automatically on every pull request.
 
 **ShiftAI** ([code](https://github.com/Jaswant06/shiftai-router) | [live demo](https://huggingface.co/spaces/JaswantDev/shiftai-router))
 Sends each prompt to the smallest local LLM that can answer it well, instead
@@ -29,6 +40,6 @@ Multi-label tweet emotion model. Compared TF-IDF, a BiLSTM, DistilBERT, and
 BERTweet (best: 0.73 micro-F1 across 11 emotions), then tested where the best
 one fails and wrote it up.
 
-**Tools:** Python, PyTorch, Hugging Face Transformers, Sentence-Transformers, scikit-learn, Ollama, FastAPI, Docker, GitHub Actions, Gradio
+**Tools:** Python, PyTorch, Hugging Face Transformers, Sentence-Transformers, scikit-learn, Ollama, FastAPI, Docker, GitHub Actions, pytest, PostgreSQL, MLflow, Prometheus, Grafana, Gradio
 
 Open to AI/ML engineering roles. Portfolio: [jaswant06.github.io](https://jaswant06.github.io) · Hugging Face: [JaswantDev](https://huggingface.co/JaswantDev)
